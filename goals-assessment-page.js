@@ -5,7 +5,7 @@ var H5P = H5P || {};
  * Goals Assessment Page module
  * @external {jQuery} $ H5P.jQuery
  */
-H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
+H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
   "use strict";
 
   // CSS Classes:
@@ -100,9 +100,9 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * Initialize module.
    * @param {Object} params Behavior settings
    * @param {Number} id Content identification
-   * @returns {Object} GoalsAssessmentPage GoalsAssessmentPage instance
+   * @returns {Object} GoalsAssessmentPageJGU GoalsAssessmentPageJGU instance
    */
-  function GoalsAssessmentPage(params, id, extras) {
+  function GoalsAssessmentPageJGU(params, id, extras) {
     EventDispatcher.call(this);
     this.id = id;
     this.extras = extras;
@@ -136,15 +136,15 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
     this.currentSelection;
   }
 
-  GoalsAssessmentPage.prototype = Object.create(EventDispatcher.prototype);
-  GoalsAssessmentPage.prototype.constructor = GoalsAssessmentPage;
+  GoalsAssessmentPageJGU.prototype = Object.create(EventDispatcher.prototype);
+  GoalsAssessmentPageJGU.prototype.constructor = GoalsAssessmentPageJGU;
 
   /**
    * Attach function called by H5P framework to insert H5P content into page.
    *
    * @param {jQuery} $container The container which will be appended to.
    */
-  GoalsAssessmentPage.prototype.attach = function ($container) {
+  GoalsAssessmentPageJGU.prototype.attach = function ($container) {
     var self = this;
     self.$inner = $('<div>', {
       'class': MAIN_CONTAINER
@@ -257,7 +257,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * @param {boolean} turncatedTitle turncate title flag
    * @returns {String} page title
    */
-  GoalsAssessmentPage.prototype.getTitle = function (turncatedTitle = true) {
+  GoalsAssessmentPageJGU.prototype.getTitle = function (turncatedTitle = true) {
     const pageTitle = (this.extras && this.extras.metadata && this.extras.metadata.title) ? this.extras.metadata.title : 'Goals Assessment';
     return turncatedTitle ? H5P.createTitle(pageTitle) : pageTitle;
   };
@@ -267,7 +267,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    *
    * @param {Array} newGoals Array of goals
    */
-  GoalsAssessmentPage.prototype.updateAssessmentGoals = function (newGoals) {
+  GoalsAssessmentPageJGU.prototype.updateAssessmentGoals = function (newGoals) {
     var self = this;
 
     this.currentGoals = [];
@@ -285,9 +285,9 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
 
   /**
    * Create goal assessment element from goal instance
-   * @param {H5P.GoalsPage.GoalInstance} goalInstance Goal instance
+   * @param {H5P.GoalsPageJGU.GoalInstance} goalInstance Goal instance
    */
-  GoalsAssessmentPage.prototype.createGoalAssessmentElement = function (goalInstance) {
+  GoalsAssessmentPageJGU.prototype.createGoalAssessmentElement = function (goalInstance) {
     var self = this;
     var goalText = goalInstance.goalText();
     // Check if goal is defined
@@ -342,7 +342,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
     // Setup buttons
     var $ratingButtons = $goal.find('[role="radio"]');
     makeRadiosAccessible($ratingButtons);
-    H5P.DocumentationTool.handleButtonClick($ratingButtons, function () {
+    H5P.DocumentationToolJGU.handleButtonClick($ratingButtons, function () {
       var $currentElement = $(this);
 
       uncheck($ratingButtons);
@@ -370,7 +370,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    *
    * @returns {Object} current goals and assessment categories
    */
-  GoalsAssessmentPage.prototype.getAssessedGoals = function () {
+  GoalsAssessmentPageJGU.prototype.getAssessedGoals = function () {
     return {
       goals: this.currentGoals,
       categories: this.assessmentCategories
@@ -380,14 +380,14 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
   /**
    * Sets focus on page
    */
-  GoalsAssessmentPage.prototype.focus = function () {
+  GoalsAssessmentPageJGU.prototype.focus = function () {
     this.$pageTitle.focus();
   };
 
   /**
    * Triggers an 'answered' xAPI event for all inputs
    */
-  GoalsAssessmentPage.prototype.triggerAnsweredEvents = function () {
+  GoalsAssessmentPageJGU.prototype.triggerAnsweredEvents = function () {
     var self = this;
     this.getAssessedGoals().goals.forEach(function(goal) {
       var xAPIEvent = self.createXAPIEventTemplate('answered');
@@ -401,7 +401,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * Helper function to return all xAPI data
    * @returns {Array}
    */
-  GoalsAssessmentPage.prototype.getXAPIDataFromChildren = function () {
+  GoalsAssessmentPageJGU.prototype.getXAPIDataFromChildren = function () {
     var children = [];
 
     var self = this;
@@ -421,7 +421,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * Generate xAPI object definition used in xAPI statements for the entire goals assessment page
    * @return {Object}
    */
-  GoalsAssessmentPage.prototype.getxAPIDefinition = function () {
+  GoalsAssessmentPageJGU.prototype.getxAPIDefinition = function () {
     var definition = {};
     var self = this;
     definition.interactionType = 'compound';
@@ -430,7 +430,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
       'en-US': self.params.title
     };
     definition.extensions = {
-      'https://h5p.org/x-api/h5p-machine-name': 'H5P.GoalsAssessmentPage'
+      'https://h5p.org/x-api/h5p-machine-name': 'H5P.GoalsAssessmentPageJGU'
     };
 
     return definition;
@@ -441,7 +441,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * @param {string} goalText Title of the goal
    * @return {Object}
    */
-  GoalsAssessmentPage.prototype.getGoalXAPIDefinition = function (goalText) {
+  GoalsAssessmentPageJGU.prototype.getGoalXAPIDefinition = function (goalText) {
     var definition = {};
     var self = this;
 
@@ -467,7 +467,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
   /**
    * Add the question itself to the definition part of an xAPIEvent
    */
-  GoalsAssessmentPage.prototype.addQuestionToXAPI = function (xAPIEvent) {
+  GoalsAssessmentPageJGU.prototype.addQuestionToXAPI = function (xAPIEvent) {
     var definition = xAPIEvent.getVerifiedStatementValue(['object', 'definition']);
     $.extend(definition, this.getxAPIDefinition());
   };
@@ -476,7 +476,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    * Add the question itself to the definition part of an xAPIEvent for a goal
    * @param {string} goal The goal title
    */
-  GoalsAssessmentPage.prototype.addQuestionToGoalXAPI = function (xAPIEvent, goalText) {
+  GoalsAssessmentPageJGU.prototype.addQuestionToGoalXAPI = function (xAPIEvent, goalText) {
     var definition = xAPIEvent.getVerifiedStatementValue(['object', 'definition']);
     $.extend(definition, this.getGoalXAPIDefinition(goalText));
   };
@@ -488,7 +488,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    *  The xAPI event we will add a response to
    * @param {number} answer The response
    */
-  GoalsAssessmentPage.prototype.addResponseToGoalXAPI = function (xAPIEvent, answer) {
+  GoalsAssessmentPageJGU.prototype.addResponseToGoalXAPI = function (xAPIEvent, answer) {
     xAPIEvent.data.statement.result = {}; // Convert to a string
     xAPIEvent.data.statement.result.response = answer + ''; // Convert to a string
   };
@@ -499,7 +499,7 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
    *
    * @see contract at {@link https://h5p.org/documentation/developers/contracts#guides-header-6}
    */
-  GoalsAssessmentPage.prototype.getXAPIData = function () {
+  GoalsAssessmentPageJGU.prototype.getXAPIData = function () {
     var xAPIEvent = this.createXAPIEventTemplate('answered');
     this.addQuestionToXAPI(xAPIEvent);
     return {
@@ -508,5 +508,5 @@ H5P.GoalsAssessmentPage = (function ($, EventDispatcher) {
     };
   };
 
-  return GoalsAssessmentPage;
+  return GoalsAssessmentPageJGU;
 }(H5P.jQuery, H5P.EventDispatcher));
