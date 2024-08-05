@@ -54,6 +54,19 @@
     {
       "label": "შეფასების სათაური",
       "default": "შეფასება"
+    },
+    {
+      "label": "Localization",
+      "fields": [
+        {
+          "label": "Average score display",
+          "description": "@score is a placeholder and will be replaced with the respective value.",
+          "default": "Average score: @score"
+        },
+        {
+          "label": "Dummy"
+        }
+      ]
     }
   ]
 }

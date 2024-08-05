@@ -122,7 +122,10 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       helpText: 'Help text',
       legendHeader: 'Possible ratings:',
       goalHeader: 'Goals',
-      ratingHeader: 'Rating'
+      ratingHeader: 'Rating',
+      l10n: {
+        averageScore: 'Average score: @score'
+      }
     }, params);
 
     // Array containing assessment categories,
@@ -262,6 +265,42 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       html: self.$goals,
       appendTo: $goalsAssessmentView
     });
+
+    this.averageScoreDisplay = document.createElement('div');
+    this.averageScoreDisplay.classList.add('average-score-display');
+    $goalsAssessmentView.get(0).append(this.averageScoreDisplay);
+
+    window.requestAnimationFrame(() => {
+      this.updateAverageScore();
+    });
+  };
+
+  /**
+   * Get average score of all goals.
+   * @returns {number} Average score of all goals.
+   */
+  GoalsAssessmentPageJGU.prototype.getAverageScore = function () {
+    const totalWeights = this.currentGoals.reduce((total, goal) => {
+      return total + (goal.goalWeight ?? 100)
+    }, 0);
+
+    return this.currentGoals.reduce((score, goal) => {
+      const nominalScore = parseFloat(goal.textualAnswer) || goal.answer + 1;
+      const relativeWeight = (goal.goalWeight ?? 100) / totalWeights;
+      const weightedScore = nominalScore * relativeWeight;
+
+      return score + weightedScore;
+    }, 0);
+  }
+
+  /**
+   * Update average score display.
+   */
+  GoalsAssessmentPageJGU.prototype.updateAverageScore = function () {
+    this.averageScoreDisplay.textContent =
+      this.params.l10n.averageScore.replace(
+        '@score', this.getAverageScore().toFixed(2)
+      );
   };
 
   /**
@@ -383,6 +422,8 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       self.addQuestionToGoalXAPI(xAPIEvent, goalText);
       self.addResponseToGoalXAPI(xAPIEvent, $currentElement.index());
       self.trigger(xAPIEvent);
+
+      self.updateAverageScore();
     });
 
     // If already checked - update UI
@@ -399,7 +440,10 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
   GoalsAssessmentPageJGU.prototype.getAssessedGoals = function () {
     return {
       goals: this.currentGoals,
-      categories: this.assessmentCategories
+      categories: this.assessmentCategories,
+      l10n: {
+        averageScore: this.params.l10n.averageScore
+      }
     };
   };
 

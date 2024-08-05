@@ -201,3 +201,10 @@
 .h5p-goals-assessment-page .goals-assessment-description {
   padding: 1em 0em;
 }
+
+.goals-assessment-view .average-score-display {
+  font-style: italic;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  text-align: right;
+}
