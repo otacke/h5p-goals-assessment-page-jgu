@@ -112,9 +112,11 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       title: this.getTitle(),
       a11yFriendlyTitle: this.getTitle(false),
       description: '',
-      lowRating: 'Learned little',
-      midRating: 'Learned something',
-      highRating: 'Learned a lot',
+      veryLowRating: '1.0',
+      lowRating: '2.0',
+      midRating: '3.0',
+      highRating: '4.0',
+      veryHighRating: '5.0',
       noGoalsText: 'You have not chosen any goals yet.',
       helpTextLabel: 'Read more',
       helpText: 'Help text',
@@ -126,9 +128,11 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
     // Array containing assessment categories,
     // makes it easier to extend categories at a later point.
     this.assessmentCategories = [
+      this.params.veryLowRating,
       this.params.lowRating,
       this.params.midRating,
-      this.params.highRating
+      this.params.highRating,
+      this.params.veryHighRating
     ];
 
     this.currentGoals = [];
@@ -198,6 +202,10 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       class: 'ratings',
       append: [
         $('<li>', {
+          class: 'rating very-low',
+          html: self.params.veryLowRating
+        }),
+        $('<li>', {
           class: 'rating low',
           html: self.params.lowRating
         }),
@@ -208,6 +216,10 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
         $('<li>', {
           class: 'rating high',
           html: self.params.highRating
+        }),
+        $('<li>', {
+          class: 'rating very-high',
+          html: self.params.veryHighRating
         })
       ],
       appendTo: $legend
@@ -320,6 +332,13 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
 
     $('<li>', {
       role: 'radio',
+      class: 'rating very-low',
+      'aria-label': `${self.params.ratingHeader}: ${self.params.veryLowRating}`,
+      appendTo: $ratingContainer
+    });
+
+    $('<li>', {
+      role: 'radio',
       class: 'rating low',
       'aria-label': `${self.params.ratingHeader}: ${self.params.lowRating}`,
       appendTo: $ratingContainer
@@ -336,6 +355,13 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       role: 'radio',
       class: 'rating high',
       'aria-label': `${self.params.ratingHeader}: ${self.params.highRating}`,
+      appendTo: $ratingContainer
+    });
+
+    $('<li>', {
+      role: 'radio',
+      class: 'rating very-high',
+      'aria-label': `${self.params.ratingHeader}: ${self.params.veryHighRating}`,
       appendTo: $ratingContainer
     });
 

@@ -6,19 +6,28 @@
       "default": "Kalifikatu helburuen orrian aukeratu dituzun helburuakR."
     },
     {
-      "label": "Kalifikazio baxuaren testua",
-      "description": "Kalifikazio baxuenaren testua.",
-      "default": "Gutxi ikasi duzu"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Tarteko kalifikazioaren testua",
-      "description": "Tarteko kalifikazioaren testua.",
-      "default": "Zerbait ikasi duzu"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Kalifikazio altuaren testua",
-      "description": "Kalifikazio onaren testua.",
-      "default": "Pila bat ikasi duzu"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Helbururik ez testua",

@@ -6,19 +6,28 @@
       "default": "Ovrednoti dodane cilje."
     },
     {
-      "label": "Najnižja ocena cilja",
-      "description": "Besedilo za vrednotenje najnižje ocene.",
-      "default": "Ni doseženo"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Srednja ocena cilja",
-      "description": "Besedilo za vrednotenje srednje ocene.",
-      "default": "Delno doseženo"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Najvišja ocena cilja",
-      "description": "Besedilo za vrednotenje najvišje ocene.",
-      "default": "Doseženo"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Ni ciljev",

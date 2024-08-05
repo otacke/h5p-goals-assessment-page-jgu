@@ -6,19 +6,28 @@
       "default": "Novērtējiet mērķus, kurus esat izvēlējies mērķu lapā."
     },
     {
-      "label": "Zema vērtējuma teksts",
-      "description": "Sliktākā vērtējuma teksts.",
-      "default": "Iemācījies maz"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Viduvēja vērtējuma teksts",
-      "description": "Teksts viduvējam vērtējumam.",
-      "default": "Kaut ko iemācījies"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Augsta vērtējuma teksts",
-      "description": "Teksts lieliskam vērtējumam.",
-      "default": "Daudz iemācījies"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Nav mērķu teksts",

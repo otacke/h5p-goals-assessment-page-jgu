@@ -1,6 +1,20 @@
+@font-face{
+  font-family: 'H5PGoalsAssessmentPageJGU';
+  src: url('fonts/goals-assessment-page-jgu.woff2?v=1.4.17') format('woff2'),
+       url('fonts/goals-assessment-page-jgu.svg?v=1.4.17#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .h5p-goals-assessment-page {
   padding: 0.5em 1em;
   margin-bottom: 1em;
+
+  --color-very-low: #cc3636;
+  --color-low: #d06223;
+  --color-mid: #d48d11;
+  --color-high: #98a02f;
+  --color-very-high: #5bb24d;
 }
 
 /* Legend */
@@ -38,7 +52,7 @@
 }
 
 .rating:before {
-  font-family: H5PFontAwesome4;
+  font-family: H5PGoalsAssessmentPageJGU;
   width: 1.6em;
   height: 1.6em;
   text-align: center;
@@ -49,14 +63,20 @@
   border: 0.042em solid #c6c6c6;
   border-radius: 0.084em;
 }
+.rating.very-low:before {
+  content: '\f10c';
+}
 .rating.low:before {
-  content: '\f006';
+  content: '\e5d3';
 }
 .rating.mid:before {
-  content: '\f123';
+  content: '\f042';
 }
 .rating.high:before {
-  content: '\f005';
+  content: '\e5d4';
+}
+.rating.very-high:before {
+  content: '\f111';
 }
 
 .rating-container .rating {
@@ -68,40 +88,62 @@
 }
 
 /* Hover effects */
+.rating-container .rating.very-low:hover:before {
+  background-color: #fff;
+  color: var(--color-very-low);
+  border-color: var(--color-very-low);
+}
 .rating-container .rating.low:hover:before {
   background-color: #fff;
-  color: #cc3636;
-  border-color: #cc3636;
+  color: var(--color-low);
+  border-color: var(--color-low);
 }
 .rating-container .rating.mid:hover:before {
   background-color: #fff;
-  color: #d48d11;
-  border-color: #d48d11;
+  color: var(--color-mid);
+  border-color: var(--color-mid);
 }
 .rating-container .rating.high:hover:before {
   background-color: #fff;
-  color: #5bb24d;
-  border-color: #5bb24d;
+  color: var(--color-high);
+  border-color: var(--color-high);
+}
+.rating-container .rating.very-high:hover:before {
+  background-color: #fff;
+  color: var(--color-high);
+  border-color: var(--color-high);
 }
 
 /* Active state */
+.legend .rating.very-low:before,
+.rating-container .rating.very-low[aria-checked="true"]:before {
+  background-color: var(--color-very-low);
+  color: #fff;
+  border-color: var(--color-very-low);
+}
 .legend .rating.low:before,
 .rating-container .rating.low[aria-checked="true"]:before {
-  background-color: #cc3636;
+  background-color: var(--color-low);
   color: #fff;
-  border-color: #cc3636;
+  border-color: var(--color-low);
 }
 .legend .rating.mid:before,
 .rating-container .rating.mid[aria-checked="true"]:before {
-  background-color: #d48d11;
+  background-color: var(--color-mid);
   color: #fff;
-  border-color: #d48d11;
+  border-color: var(--color-mid);
 }
 .legend .rating.high:before,
 .rating-container .rating.high[aria-checked="true"]:before {
-  background-color: #5bb24d;
+  background-color: var(--color-high);
   color: #fff;
-  border-color: #5bb24d;
+  border-color: var(--color-high);
+}
+.legend .rating.very-high:before,
+.rating-container .rating.very-high[aria-checked="true"]:before {
+  background-color: var(--color-very-high);
+  color: #fff;
+  border-color: var(--color-high);
 }
 
 .goals-assessment-view .goals-header {
@@ -135,13 +177,9 @@
   color: #333;
 }
 
-.goals-assessment-view .goal:first-child {
-  padding-top: 1em;
-}
-
 .goals-assessment-view .goal-name {
   display: inline-block;
-  width: calc(100% - 7.5em);
+  width: calc(100% - 12.5em); /* no. options * 2.5em */
 }
 
 .goals-assessment-view .rating-container {

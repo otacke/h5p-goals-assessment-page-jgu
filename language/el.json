@@ -6,19 +6,28 @@
       "default": "Αξιολογήστε τους στόχους που έχετε επιλέξει στη σελίδα στόχων."
     },
     {
-      "label": "Κείμενο για χαμηλή αξιολόγηση",
-      "description": "Κείμενο χείριστης αξιολόγησης.",
-      "default": "Χαμηλό επίπεδο μάθησης"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Κείμενο για μέτρια αξιολόγηση",
-      "description": "Κείμενο μέτριας αξιολόγησης.",
-      "default": "Μέτριο επίπεδο μάθησης"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Κείμενο για υψηλή αξιολόγηση ",
-      "description": "Κείμενο υψηλής αξιολόγησης.",
-      "default": "Υψηλό επίπεδο μάθησης"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Κείμενο μη δημιουργίας στόχων",

@@ -6,19 +6,28 @@
       "default": "შეაფასეთ თქვენ მიერ არჩეული მიზნები მიზნების გვერდზე."
     },
     {
-      "label": "დაბალი შეფასების ტექსტი",
-      "description": "ტექსტი ყველაზე ცუდი შეფასებისთვის.",
-      "default": "ცოტა ისწავლა"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "საშუალო შეფასების ტექსტი",
-      "description": "ტექსტი საშუალო შეფასებისთვის.",
-      "default": "რაღაც ისწავლა"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "მაღალი შეფასების ტექსტი",
-      "description": "ტექსტი შესანიშნავი შეფასებისთვის.",
-      "default": "ბევრი ისწავლა"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "ტექსტი, როცა მიზნები არ არის",

@@ -6,19 +6,28 @@
       "default": "Kadiria malengo ambayo umechagua katika ukurasa wa malengo."
     },
     {
-      "label": "Maandishi ya alama ya chini",
-      "description": "Maandishi ya ukadiriaji mbaya zaidi.",
-      "default": "Kujifunza kidogo"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Maandishi ya ukadiriaji wa wastani",
-      "description": "Maandishi ya ukadiriaji wa kati.",
-      "default": "Kujifunza kitu"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Maandishi ya ukadiriaji wa juu",
-      "description": "Maandishi kwa ukadiriaji mzuri.",
-      "default": "Kujifunza mengi"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Hakuna maandishi ya malengo",

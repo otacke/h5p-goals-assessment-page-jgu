@@ -24,28 +24,44 @@
     "optional": true
   },
   {
+    "name": "veryLowRating",
+    "label": "Very low rating score",
+    "importance": "low",
+    "type": "number",
+    "description": "Score for worst rating.",
+    "default": "1.0"
+  },
+  {
     "name": "lowRating",
-    "label": "Low rating text",
+    "label": "Low rating score",
     "importance": "low",
     "type": "text",
-    "description": "Text for worst rating.",
-    "default": "Learned little"
+    "description": "Score for second-worst rating.",
+    "default": "2.0"
   },
   {
     "name": "midRating",
-    "label": "Medium rating text",
+    "label": "Medium rating score",
     "importance": "low",
     "type": "text",
-    "description": "Text for middle rating.",
-    "default": "Learned something"
+    "description": "Score for middle rating.",
+    "default": "3.0"
   },
   {
     "name": "highRating",
-    "label": "High rating text",
+    "label": "High rating score",
     "importance": "low",
     "type": "text",
-    "description": "Text for great rating.",
-    "default": "Learned a lot"
+    "description": "Score for good rating.",
+    "default": "4.0"
+  },
+  {
+    "name": "veryHighRating",
+    "label": "Very high rating score",
+    "importance": "low",
+    "type": "text",
+    "description": "Score for great rating.",
+    "default": "5.0"
   },
   {
     "name": "noGoalsText",

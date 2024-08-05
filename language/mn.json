@@ -1,50 +1,59 @@
 {
   "semantics": [
     {
-      "description": "Зорилгын үнэлгээний хуудасны тайлбар.",
       "label": "Тодорхойлолт",
+      "description": "Зорилгын үнэлгээний хуудасны тайлбар.",
       "default": "Зорилгуудын хуудсан дээр сонгосон зорилгоо үнэлнэ үү."
     },
     {
-      "label": "Бага үнэлгээтэй текст",
-      "default": "Бага сурсан",
-      "description": "Хамгийн муу үнэлгээний текст."
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "description": "Дунд зэргийн үнэлгээ өгөх текст.",
-      "label": "Дунд зэргийн үнэлгээний текст",
-      "default": "Ямар нэгэн зүйл сурсан"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Өндөр үнэлгээтэй текст",
-      "default": "Их зүйл сурсан",
-      "description": "Сайхан үнэлгээ өгөх текст."
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
     },
     {
-      "description": "Зорилго үүсгээгүй үед санал хүсэлтийн текст.",
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
       "label": "Зорилго текст байхгүй",
+      "description": "Зорилго үүсгээгүй үед санал хүсэлтийн текст.",
       "default": "Та хараахан зорилго сонгоогүй байна."
     },
     {
       "label": "Тусламжийн текстийн шошго",
-      "default": "Нэмэлт мэдээлэл",
-      "description": "Хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг харуулах шошго."
+      "description": "Хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг харуулах шошго.",
+      "default": "Нэмэлт мэдээлэл"
     },
     {
-      "description": "Энд та хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг бөглөж болно.",
-      "label": "Тусламжийн нэмэлт мэдээллийг бөглөнө үү"
+      "label": "Тусламжийн нэмэлт мэдээллийг бөглөнө үү",
+      "description": "Энд та хэрэглэгчдэд хэрэгтэй нэмэлт мэдээллийг бөглөж болно."
     },
     {
-      "default": "Боломжит үнэлгээ:",
-      "label": "Домог толгой"
+      "label": "Домог толгой",
+      "default": "Боломжит үнэлгээ:"
     },
     {
-      "default": "Зорилго",
-      "label": "Зорилго толгой"
+      "label": "Зорилго толгой",
+      "default": "Зорилго"
     },
     {
-      "default": "Үнэлгээ",
-      "label": "Үнэлгээний гарчиг"
+      "label": "Үнэлгээний гарчиг",
+      "default": "Үнэлгээ"
     }
   ]
 }

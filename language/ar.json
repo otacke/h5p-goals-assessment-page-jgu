@@ -6,19 +6,28 @@
       "default": "Rate the goals that you have chosen in the goals page."
     },
     {
-      "label": "نص التصنيف المنخفض",
-      "description": "نص اسوأ تقييم.",
-      "default": "Learned little"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "نص التصنيف المتوسط",
-      "description": "نص التصنيف المتوسط.",
-      "default": "Learned something"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "نص التصنيف العالي",
-      "description": "نص للتصنيف الرائع.",
-      "default": "Learned a lot"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "نص لا يوجد اهداف",

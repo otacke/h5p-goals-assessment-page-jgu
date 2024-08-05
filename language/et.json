@@ -6,19 +6,28 @@
       "default": "Hinda eesmärgid, mis valisid eesmärkide lehel."
     },
     {
-      "label": "Madala tulemuse tekst",
-      "description": "Kõige hullema tulemuse tekst.",
-      "default": "Õppisid natuke"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Keskmise tulemuse tekst",
-      "description": "Keskmise tulemuse tekst.",
-      "default": "Õppisid midagi"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Kõrge tulemuse tekst",
-      "description": "Suurepärase tulemuse tekst.",
-      "default": "Õppisid palju"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Ilma eesmärkideta tekst",

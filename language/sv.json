@@ -6,19 +6,28 @@
       "default": "Bedöm målen som du har valt på målsidan."
     },
     {
-      "label": "Text för låg uppfyllelse",
-      "description": "Text för minst uppfyllelse.",
-      "default": "Lärt mig lite"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Text för medium uppfyllelse",
-      "description": "Text för medium uppfyllelse.",
-      "default": "Lärt mig något"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Text för hög uppfyllelse",
-      "description": "Text för hög uppfyllelse.",
-      "default": "Lärt mig mycket"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Text för inga mål",

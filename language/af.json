@@ -6,19 +6,28 @@
       "default": "Gradeer die doelwitte wat jy gekies het in die doelwitbladsy."
     },
     {
-      "label": "Lae gradering teks",
-      "description": "Teks vir swakste gradering.",
-      "default": "Min geleer"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Gemiddelde gradering teks",
-      "description": "Teks vir middelmatige gradering.",
-      "default": "Iets geleer"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Hoë gradering teks",
-      "description": "Teks vir uitstekende gradering.",
-      "default": "Baie geleer"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Geen doelwitteks",

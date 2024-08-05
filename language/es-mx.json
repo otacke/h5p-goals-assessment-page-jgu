@@ -6,19 +6,28 @@
       "default": "Valore las metas que ha elegido en la página de metas."
     },
     {
-      "label": "Texto de baja valoración",
-      "description": "Texto para la peor valoración.",
-      "default": "Aprendí poco"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Texto de valoración media",
-      "description": "Texto para valoración media.",
-      "default": "Aprendí algo"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Texto de alta valoración",
-      "description": "Texto para valoración magnífica.",
-      "default": "Aprendí mucho"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Texto de sin metas",

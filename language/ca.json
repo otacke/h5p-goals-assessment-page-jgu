@@ -6,19 +6,28 @@
       "default": "Avalueu els objectius que heu seleccionat a la pàgina d’objectius."
     },
     {
-      "label": "Text per a una puntuació baixa",
-      "description": "Text per a la pitjor puntuació.",
-      "default": "He aprés molt poc"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Text per a una puntuació mitjana",
-      "description": "Text per a una puntuació mitjana.",
-      "default": "He aprés força"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Text per a una puntuació alta",
-      "description": "Text per a una puntuació excel·lent.",
-      "default": "He aprés molt"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Text per quan no hi ha cap objectiu",

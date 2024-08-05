@@ -6,19 +6,28 @@
       "default": "評估你為你的目標實踐的程度。"
     },
     {
-      "label": "低程度的顯示文字",
-      "description": "目標評估頁面上低程度的顯示文字，像是沒有達成、學到很少、很不滿意。",
-      "default": "沒有達成"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "中程度的顯示文字",
-      "description": "目標評估頁面上中程度的顯示文字，像是部分達成、學到一些、還算滿意。",
-      "default": "部分達成"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "高程度的顯示文字",
-      "description": "目標評估頁面上高程度的顯示文字，像是完全達成、學到很多、非常滿意。",
-      "default": "完全達成"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "無目標內容的顯示文字",

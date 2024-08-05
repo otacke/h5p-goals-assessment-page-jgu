@@ -1,50 +1,59 @@
 {
   "semantics": [
     {
-      "description": "Tikslų vertinimo puslapio aprašymas.",
       "label": "Aprašymas",
+      "description": "Tikslų vertinimo puslapio aprašymas.",
       "default": "Įvertinkite tikslus, kuriuos pasirinkote tikslų puslapyje."
     },
     {
-      "label": "Žemo įvertinimo tekstas",
-      "default": "Nepakankamai išmokta",
-      "description": "Tekstas prasčiausiam įvertinimui."
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "description": "Tekstas vidutiniam įvertinimui.",
-      "label": "Vidutinio įvertinimo tekstas",
-      "default": "Kažko išmoko"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "High rating text",
-      "default": "Daug išmoko",
-      "description": "Text for great rating."
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
     },
     {
-      "description": "Feedback text when no goals have been created.",
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
+    },
+    {
       "label": "No goals text",
+      "description": "Feedback text when no goals have been created.",
       "default": "You have not chosen any goals yet."
     },
     {
       "label": "Label for help text",
-      "default": "Daugiau informacijos",
-      "description": "Label for showing additional helpful information to the user."
+      "description": "Label for showing additional helpful information to the user.",
+      "default": "Daugiau informacijos"
     },
     {
-      "description": "Here you can fill in additional helpful information for the user.",
-      "label": "Fill in additional help information"
+      "label": "Fill in additional help information",
+      "description": "Here you can fill in additional helpful information for the user."
     },
     {
-      "default": "Possible ratings:",
-      "label": "Legend header"
+      "label": "Legend header",
+      "default": "Possible ratings:"
     },
     {
-      "default": "Goals",
-      "label": "Goal header"
+      "label": "Goal header",
+      "default": "Goals"
     },
     {
-      "default": "Rating",
-      "label": "Rating header"
+      "label": "Rating header",
+      "default": "Rating"
     }
   ]
 }

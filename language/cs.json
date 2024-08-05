@@ -6,19 +6,28 @@
       "default": "Ohodnoťte cíle, které jste si vybrali na stránce cílů."
     },
     {
-      "label": "Text s nízkým hodnocením",
-      "description": "Text pro nejhorší hodnocení.",
-      "default": "Naučeno málo"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Text se středním hodnocením",
-      "description": "Text pro střední hodnocení.",
-      "default": "Něco naučeno"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Text s vysokým hodnocením",
-      "description": "Text pro skvělé hodnocení.",
-      "default": "Naučeno hodně"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Žádný text cílů",

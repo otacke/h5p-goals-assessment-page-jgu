@@ -6,19 +6,28 @@
       "default": "목표 페이지에서 선택한 목표를 평가하십시오."
     },
     {
-      "label": "낮은 평가 텍스트",
-      "description": "낮은 평가 텍스트.",
-      "default": "학습이 부족합니다."
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "평균적인 평가 텍스트",
-      "description": "평균적인 평가에 대한 텍스트.",
-      "default": "학습이 어느 정도 이루어졌습니다."
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "높은 평가 텍스트",
-      "description": "높은 평가에 대한 텍스트.",
-      "default": "훌륭히 학습하였습니다."
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "목표 없음 텍스트",

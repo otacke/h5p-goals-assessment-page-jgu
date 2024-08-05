@@ -6,19 +6,28 @@
       "default": "វាយតម្លៃគោលដៅដែលអ្នកបានជ្រើសរើសក្នុងទំព័រគោលដៅ។"
     },
     {
-      "label": "Low rating text",
-      "description": "Text for worst rating.",
-      "default": "បានរៀនតិចតួច"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Medium rating text",
-      "description": "Text for middle rating.",
-      "default": "បានរៀនខ្លះ"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "High rating text",
-      "description": "Text for great rating.",
-      "default": "បានរៀនច្រើន"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "No goals text",

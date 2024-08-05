@@ -6,19 +6,28 @@
       "default": "Avalie os objetivos que você escolheu na página de objetivos."
     },
     {
-      "label": "Texto para avaliação baixa",
-      "description": "Texto para a pior avaliação.",
-      "default": "Pouco aprendido"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Texto para avaliação mediana",
-      "description": "Texto para avaliação mediana.",
-      "default": "Aprendeu algo"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Texto para avaliação alta",
-      "description": "Texto para avaliação ótima.",
-      "default": "Aprendeu muito"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Texto para nenhum objetivo",

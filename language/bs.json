@@ -6,19 +6,28 @@
       "default": "Ocijenite ciljeve koje ste odabrali na stranici ciljeva."
     },
     {
-      "label": "Tekst za slab rejting",
-      "description": "Tekst za najgori rejting.",
-      "default": "Malo naučeno"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Tekst za srednji rejting",
-      "description": "Tekst za srednji rejting.",
-      "default": "Osrednje naučeno"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Tekst za visok rejting",
-      "description": "Tekst za visok rejting.",
-      "default": "Dobro naučeno"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Tekst za nema ciljeva",

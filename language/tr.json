@@ -6,19 +6,28 @@
       "default": "Hedefler sayfasında seçtiğiniz hedefleri puanlayın."
     },
     {
-      "label": "Düşük puan metni",
-      "description": "En kötü puan için metin.",
-      "default": "Az bilgi öğrendin"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Orta puan metin",
-      "description": "Orta puan için metin.",
-      "default": "Bazı bilgiler öğrendin"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Yüksek puan metni",
-      "description": "Yüksek puan için metin.",
-      "default": "Çok bilgi öğrendin"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Hedef metni yok",

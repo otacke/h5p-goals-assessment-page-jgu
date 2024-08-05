@@ -6,19 +6,28 @@
       "default": "Valuta gli obiettivi che hai scelto nella pagina degli obiettivi"
     },
     {
-      "label": "Testo per bassa valutazione",
-      "description": "Testo per la peggior valutazione",
-      "default": "Apprendimento scarso"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Testo per mediocre valutazione",
-      "description": "Testo per media valutazione",
-      "default": "Apprendimento moderato"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Testo per alta valutazione",
-      "description": "Testo per eccezionale valutazione",
-      "default": "Apprendimento notevole"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Nessun obiettivo di testo",

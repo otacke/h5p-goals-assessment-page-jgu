@@ -6,19 +6,28 @@
       "default": "Die Ziele auf der Zielseite bewerten."
     },
     {
-      "label": "Text bei geringer Bewertung",
-      "description": "Text für die schlechteste Wertung",
-      "default": "Wenig gelernt"
+      "label": "Punkte bei sehr geringer Bewertung",
+      "description": "Punkte für die schlechteste Bewertung."
     },
     {
-      "label": "Text bei mittlerer Bewertung",
-      "description": "Text für mittlere Wertung",
-      "default": "Etwas gelernt"
+      "label": "Punkte bei geringer Bewertung",
+      "description": "Punkte für die zweitschlechteste Bewertung.",
+      "default": "2.0"
     },
     {
-      "label": "Text bei hoher Bewertung",
-      "description": "Text für hohe Wertung",
-      "default": "Viel gelernt"
+      "label": "Punkte bei mittlerer Bewertung",
+      "description": "Punkte für mittlere Bewertung.",
+      "default": "3.0"
+    },
+    {
+      "label": "Punkte bei hoher Bewertung",
+      "description": "Punkte für hohe Wertung.",
+      "default": "4.0"
+    },
+    {
+      "label": "Punkte bei sehr hoher Bewertung",
+      "description": "Punkte für sehr hohe Bewertung.",
+      "default": "5.0"
     },
     {
       "label": "Text für keine Ziele",

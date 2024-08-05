@@ -6,19 +6,28 @@
       "default": "Vurder hvilken grad av oppnåelse du har hatt på målene du valgte på målsiden."
     },
     {
-      "label": "Lav måloppnåelses-tekst",
-      "description": "Tekst for verst måloppnåelse.",
-      "default": "Kan litt"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Middels måloppnåelses-tekst",
-      "description": "Tekst for middels måloppnåelse.",
-      "default": "Kan noe"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Høy måloppnåelses-tekst",
-      "description": "Tekst for høy måloppnåelse.",
-      "default": "Kan mye"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Ingen mål valgt tekst",

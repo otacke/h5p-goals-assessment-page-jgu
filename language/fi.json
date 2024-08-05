@@ -6,19 +6,28 @@
       "default": "Arvioi tavoitesivulla valitsemasi tavoitteet."
     },
     {
-      "label": "Huonoimman arvionnin teksti",
-      "description": "Teksti huonoimmalle arvioinnille.",
-      "default": "Opin vähän"
+      "label": "Very low rating score",
+      "description": "Score for worst rating."
     },
     {
-      "label": "Keskimääräisen arvioinnin teksti",
-      "description": "Teksti keskimääräiselle arvioinnille.",
-      "default": "Opin jotain"
+      "label": "Low rating score",
+      "description": "Score for second-worst rating.",
+      "default": "2.0"
     },
     {
-      "label": "Parhaimman arvioinnin teksti",
-      "description": "Teksti parhaimmalla arvioinnille.",
-      "default": "Opin paljon"
+      "label": "Medium rating score",
+      "description": "Score for middle rating.",
+      "default": "3.0"
+    },
+    {
+      "label": "High rating score",
+      "description": "Score for good rating.",
+      "default": "4.0"
+    },
+    {
+      "label": "Very high rating score",
+      "description": "Score for great rating.",
+      "default": "5.0"
     },
     {
       "label": "Tekstiä, kun ei tavoitteita",
