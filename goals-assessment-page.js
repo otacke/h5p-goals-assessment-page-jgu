@@ -294,6 +294,13 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
   }
 
   /**
+   * Update content.
+   */
+  GoalsAssessmentPageJGU.prototype.update = function () {
+    this.updateAverageScore();
+  }
+
+  /**
    * Update average score display.
    */
   GoalsAssessmentPageJGU.prototype.updateAverageScore = function () {
