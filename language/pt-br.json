@@ -7,7 +7,8 @@
     },
     {
       "label": "Very low rating score",
-      "description": "Score for worst rating."
+      "description": "Score for worst rating.",
+      "default": "1.0"
     },
     {
       "label": "Low rating score",

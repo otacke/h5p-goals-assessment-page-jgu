@@ -7,7 +7,8 @@
     },
     {
       "label": "Punkte bei sehr geringer Bewertung",
-      "description": "Punkte für die schlechteste Bewertung."
+      "description": "Punkte für die schlechteste Bewertung.",
+      "default": "1.0"
     },
     {
       "label": "Punkte bei geringer Bewertung",
