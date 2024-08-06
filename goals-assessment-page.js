@@ -279,7 +279,7 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
    * Get average score of all goals.
    * @returns {number} Average score of all goals.
    */
-  GoalsAssessmentPageJGU.prototype.getAverageScore = function () {
+  GoalsAssessmentPageJGU.prototype.getScore = function () {
     const totalWeights = this.currentGoals.reduce((total, goal) => {
       return total + (goal.goalWeight ?? 100)
     }, 0);
@@ -306,7 +306,7 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
   GoalsAssessmentPageJGU.prototype.updateAverageScore = function () {
     this.averageScoreDisplay.textContent =
       this.params.l10n.averageScore.replace(
-        '@score', this.getAverageScore().toFixed(2)
+        '@score', this.getScore().toFixed(2)
       );
   };
 
