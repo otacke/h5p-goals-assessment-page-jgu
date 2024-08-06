@@ -56,12 +56,12 @@
       "default": "Bewertung"
     },
     {
-      "label": "Localization",
+      "label": "Bedienoberfläche",
       "fields": [
         {
-          "label": "Average score display",
-          "description": "@score is a placeholder and will be replaced with the respective value.",
-          "default": "Average score: @score"
+          "label": "Anzeige der durchschnittlichen Punktzahl",
+          "description": "@score ist ein Platzhalter und wird durch den jeweiligen Wert ersetzt.",
+          "default": "Durchschnittliche Punktzahl: @score"
         },
         {
           "label": "Dummy"
