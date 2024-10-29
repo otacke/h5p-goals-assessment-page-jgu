@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Geen doelwitteks",
       "description": "Terugvoerteks wanneer geen doelwitte geskep is nie.",
       "default": "Jy het nog geen doelwitte gekies nie."
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

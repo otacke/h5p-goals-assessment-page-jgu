@@ -64,6 +64,13 @@
     "default": "5.0"
   },
   {
+    "name": "allowsComments",
+    "type": "boolean",
+    "label": "Allow to add comments to each goal",
+    "default": true,
+    "optional": true
+  },
+  {
     "name": "noGoalsText",
     "label": "No goals text",
     "importance": "low",
@@ -122,6 +129,13 @@
     "importance": "low",
     "type": "text",
     "default": "Rating"
+  },
+  {
+    "name": "commentsHeader",
+    "label": "Comments header",
+    "importance": "low",
+    "type": "text",
+    "default": "Comments"
   },
   {
     "name": "l10n",

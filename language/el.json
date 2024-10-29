@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Κείμενο μη δημιουργίας στόχων",
       "description": "Κείμενο ανατροφοδότησης όταν δεν έχουν δημιουργηθεί στόχοι.",
       "default": "Δεν έχετε επιλέξει ακόμα στόχους."
@@ -55,6 +58,10 @@
     {
       "label": "Κεφαλίδα βαθμολογίας",
       "default": "Βαθμολογία"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

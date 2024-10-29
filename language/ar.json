@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "نص لا يوجد اهداف",
       "description": "نص رد الفعل عندما لا يتم انشاء اي هدف.",
       "default": "You have not chosen any goals yet."
@@ -55,6 +58,10 @@
     {
       "label": "رأس التصنيف",
       "default": "التصنيف"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

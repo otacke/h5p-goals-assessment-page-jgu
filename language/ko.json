@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "목표 없음 텍스트",
       "description": "목표가 설정되지 않았을 때 피드백 텍스트.",
       "default": "아직 어떤 목표도 선택하지 않았습니다."
@@ -55,6 +58,10 @@
     {
       "label": "평가 제목",
       "default": "평가"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

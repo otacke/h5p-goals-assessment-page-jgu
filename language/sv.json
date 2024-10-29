@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Text för inga mål",
       "description": "Feedback-text när inga mål har skapats.",
       "default": "Du har inte valt några mål ännu."
@@ -55,6 +58,10 @@
     {
       "label": "Rubrik för bedömning",
       "default": "Bedömning"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

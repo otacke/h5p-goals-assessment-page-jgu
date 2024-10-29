@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Зорилго текст байхгүй",
       "description": "Зорилго үүсгээгүй үед санал хүсэлтийн текст.",
       "default": "Та хараахан зорилго сонгоогүй байна."
@@ -55,6 +58,10 @@
     {
       "label": "Үнэлгээний гарчиг",
       "default": "Үнэлгээ"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

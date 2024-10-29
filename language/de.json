@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Erlaube, zu jedem Ziel Kommentare hinzuzufügen"
+    },
+    {
       "label": "Text für keine Ziele",
       "description": "Feedback Text, wenn keine Ziele erstellt wurden",
       "default": "Es wurden noch keine Ziele ausgewählt."
@@ -55,6 +58,10 @@
     {
       "label": "Überschrift der Bewertung",
       "default": "Bewertung"
+    },
+    {
+      "label": "Überschrift der Kommentare",
+      "default": "Kommentare"
     },
     {
       "label": "Bedienoberfläche",

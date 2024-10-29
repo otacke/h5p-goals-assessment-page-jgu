@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Tekstiä, kun ei tavoitteita",
       "description": "Palaute, kun yhtään tavoitetta ei ole valittu.",
       "default": "Et ole valinnut yhtään tavoitetta vielä."
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

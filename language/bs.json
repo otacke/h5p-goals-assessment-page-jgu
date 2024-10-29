@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Tekst za nema ciljeva",
       "description": "Feedback tekst kada nisu postavljeni ciljevi.",
       "default": "Niste odabrali još nikakve ciljeve."
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

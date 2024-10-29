@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "無目標內容的顯示文字",
       "description": "當沒有目標被建立時，在目標評估頁面上顯示的文字。",
       "default": "你尚未添加任何目標。"
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

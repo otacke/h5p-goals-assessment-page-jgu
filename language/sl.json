@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Ni ciljev",
       "description": "Besedilo za povratne informacije udeležencu, ko cilji nisi bili ustvarjeni.",
       "default": "Ni izbranih ciljev."
@@ -55,6 +58,10 @@
     {
       "label": "Naslov stolpca z ocenami",
       "default": "Ocena"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

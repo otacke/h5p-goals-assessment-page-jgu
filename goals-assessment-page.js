@@ -117,12 +117,14 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       midRating: '3.0',
       highRating: '4.0',
       veryHighRating: '5.0',
+      allowsComments: true,
       noGoalsText: 'You have not chosen any goals yet.',
       helpTextLabel: 'Read more',
       helpText: 'Help text',
       legendHeader: 'Possible ratings:',
       goalHeader: 'Goals',
       ratingHeader: 'Rating',
+      commentsHeader: 'Comments',
       l10n: {
         averageScore: 'Average score: @score'
       }
@@ -410,6 +412,31 @@ H5P.GoalsAssessmentPageJGU = (function ($, EventDispatcher) {
       'aria-label': `${self.params.ratingHeader}: ${self.params.veryHighRating}`,
       appendTo: $ratingContainer
     });
+
+    if (this.params.allowsComments) {
+      const commentWrapper = document.createElement('div');
+      commentWrapper.classList.add('goal-comments-wrapper');
+      $goal.get(0).append(commentWrapper);
+
+      const commentsId = H5P.createUUID();
+
+      const label = document.createElement('label');
+      label.classList.add('goal-comments-label');
+      label.setAttribute('for', commentsId);
+      label.innerText = self.params.commentsHeader;
+      commentWrapper.append(label);
+
+      const comment = document.createElement('textarea');
+      comment.classList.add('goal-comments');
+      comment.setAttribute('id', commentsId);
+      comment.setAttribute('rows', '4');
+      comment.innerText = goalInstance.getComment();
+      commentWrapper.append(comment);
+
+      comment.addEventListener('input', () => {
+        goalInstance.setComment(comment.value);
+      });
+    }
 
     // Setup buttons
     var $ratingButtons = $goal.find('[role="radio"]');

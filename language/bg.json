@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Текст за отсъствие на зададена цел",
       "description": "Текст за обратна връзка, когато не са зададени цели.",
       "default": "Все още не сте задали цели."
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

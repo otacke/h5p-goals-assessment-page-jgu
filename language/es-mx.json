@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Texto de sin metas",
       "description": "Texto de retroalimentación cuando no se han creado metas.",
       "default": "Usted aun no ha elegido ninguna meta."
@@ -55,6 +58,10 @@
     {
       "label": "Encabezado de valoraciones",
       "default": "Valoración"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

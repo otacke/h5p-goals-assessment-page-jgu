@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Texto para ausencia de obxectivos",
       "description": "Texto de retroalimentación se non se crearon obxectivos.",
       "default": "Aínda non escolliches ningún obxectivo."
@@ -55,6 +58,10 @@
     {
       "label": "Cabeceira de valoracións",
       "default": "Valoracións"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

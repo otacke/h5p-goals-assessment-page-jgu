@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Texto para nenhum objetivo",
       "description": "Texto de feedback para quando nenhum objetivo tiver sido criado.",
       "default": "Você ainda não escolheu nenhum objetivo."
@@ -55,6 +58,10 @@
     {
       "label": "Cabeçalho de avaliação",
       "default": "Avaliação"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Helbururik ez testua",
       "description": "Helbururik ez dagoenerako feedbacka.",
       "default": "Oraindik ez duzu helbururik aukeratu."
@@ -55,6 +58,10 @@
     {
       "label": "Puntuazioen goiburua",
       "default": "Puntuazioa"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

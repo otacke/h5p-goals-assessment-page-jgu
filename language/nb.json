@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Ingen mål valgt tekst",
       "description": "Tekst som vises når ingen mål har blitt satt opp på målsiden.",
       "default": "Du har ikke valgt noen mål ennå."
@@ -55,6 +58,10 @@
     {
       "label": "Overskrift for vurdering",
       "default": "Vurdering"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

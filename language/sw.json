@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Hakuna maandishi ya malengo",
       "description": "Maoni ya maandishi wakati hakuna malengo yaliyoundwa.",
       "default": "Bado hujachagua malengo yoyote."
@@ -55,6 +58,10 @@
     {
       "label": "Kichwa cha ukadiriaji",
       "default": "Ukadiriaji"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

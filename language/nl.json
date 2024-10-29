@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "Tekst voor geen doelstellingen",
       "description": "Feedbacktekst als er geen doelstellingen zijn gekozen.",
       "default": "Je hebt nog geen doelstellingen gekozen."
@@ -55,6 +58,10 @@
     {
       "label": "Koptekst van waardering",
       "default": "Waardering"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",

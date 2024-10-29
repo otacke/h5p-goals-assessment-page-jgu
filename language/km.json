@@ -31,6 +31,9 @@
       "default": "5.0"
     },
     {
+      "label": "Allow to add comments to each goal"
+    },
+    {
       "label": "No goals text",
       "description": "Feedback text when no goals have been created.",
       "default": "អ្នកមិនទាន់បានជ្រើសរើសគោលដៅណានៅឡើយទេ។"
@@ -55,6 +58,10 @@
     {
       "label": "Rating header",
       "default": "Rating"
+    },
+    {
+      "label": "Comments header",
+      "default": "Comments"
     },
     {
       "label": "Localization",
